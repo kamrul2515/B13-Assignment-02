@@ -580,4 +580,37 @@ nav .menu a{
         line-height: 22px;
         padding-bottom: 0;
     }
+
+        #featured{
+    background-color: #1A0B2E;
+}
+.featured-content{
+    padding: 60px 0;
+}
+.featured-title{
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+.featured-cards{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.featured-card{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-texts{
+    padding: 20px;
+}
+.featured-text{
+    font-size: 1.32rem;
+    padding-right: 0px;
+}
+.featured-description{
+    font-size: 0.95rem;
+    line-height: 22px;
+}
 }
