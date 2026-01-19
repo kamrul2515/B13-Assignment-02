@@ -198,6 +198,8 @@ nav .menu a{
     opacity: 80%;
 }
 .about-info{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     padding-top: 80px;
     justify-content: space-between;
     text-align: center;
@@ -517,5 +519,65 @@ nav .menu a{
         font-size: 0.9rem;
         margin-bottom: 30px;
         padding: 0 10px;
+    }
+
+        .about-title{
+    font-size: 2.5rem;
+
+   }
+  .about-description{
+    font-size: 1rem;
+  }
+.about-description2{
+    font-size: 0.9rem;
+   }
+  .about-info{
+  grid-template-columns: repeat(2, 1fr);
+  }
+  .text{
+    font-size: 2.5rem;
+   }
+   .about-text{
+    font-size: 0.9rem;
+  }
+
+  .techwave-title{
+    font-size: 2rem;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.techWave-boxs{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+.border{
+    border-radius: 20px;
+}
+
+#side-ber,
+#header,
+#main,
+#footer-ete,
+#last{
+    grid-column: span 1;
+    grid-row: span 1;
+    padding: 30px;
+    height: auto;
+    text-align: left;
+}
+.techWave-boxs img{
+    width: 50px;
+    height: auto;
+}
+.techwave-text{
+    font-size: 1.3rem;
+    margin: 12px 0;
+}
+.techwave-description{
+        font-size: 0.95rem;
+        line-height: 22px;
+        padding-bottom: 0;
     }
 }
